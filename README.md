@@ -17,13 +17,13 @@ List of Docker Command That I've learned
 
 ### Other Docker Command
 * Access MySQL Console
-`docker exec -it [DOCKER_INSTANCE] mysql -u root -p`
+`docker exec -it [CONTAINER_NAME] mysql -u root -p`
 
 * List all docker running instance
 `docker ps`
 
 * Restart docker instance
-`docker restart [DOCKER_INSTANCE]`
+`docker restart [CONTAINER_NAME]`
 
 * Build docker image
 `docker build --rm -t [TAG] [PATH]`
