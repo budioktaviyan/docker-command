@@ -33,3 +33,9 @@ List of Docker Command That I've learned
 
 * Run docker-compose to docker instance
 `docker-compose -f [DOCKER_COMPOSE_FILE] up -d`
+
+* Run docker logs with tail
+`docker logs -f --tail "[MAX_LINE]" [CONTAINER_NAME]`
+
+* Find all unused docker images
+`docker images -f "dangling=true" -q`
