@@ -43,3 +43,5 @@ List of Docker Command That I've learned
 * Access bash into docker container
 `docker exec -it [CONTAINER_NAME] bash`
 
+* SCP zip file into docker machine
+`docker-machine scp [DOCKER_MACHINE_NAME]:[PATH]`
