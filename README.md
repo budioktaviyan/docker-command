@@ -39,3 +39,7 @@ List of Docker Command That I've learned
 
 * Find all unused docker images
 `docker images -f "dangling=true" -q`
+
+* Access bash into docker container
+`docker exec -it [CONTAINER_NAME] bash`
+
