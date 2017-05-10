@@ -45,3 +45,7 @@ List of Docker Command That I've learned
 
 * SCP zip file into docker machine
 `docker-machine scp -r [ZIP_FILE] [DOCKER_MACHINE_NAME]:[PATH]`
+
+### Linux Command
+* Unzip file
+`unzip [ZIP_FILE] -d [PATH]`
