@@ -46,6 +46,9 @@ List of Docker Command That I've learned
 * SCP zip file into docker machine
 `docker-machine scp -r [ZIP_FILE] [DOCKER_MACHINE_NAME]:[PATH]`
 
+* Check MySQL max_allowed_packet
+`docker exec -it [CONTAINER_NAME] mysql -p -e "show variables like '%max_allowed_packet%';"`
+
 ### Linux Command
 * Unzip file
 `unzip [ZIP_FILE] -d [PATH]`
