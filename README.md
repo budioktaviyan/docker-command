@@ -3,7 +3,7 @@ List of Docker Command That I've learned
 
 ## Setup Machine
 * Digital Ocean
-`docker-machine create --driver digitalocean --digitalocean-access-token [DO_ACCESS_TOKEN] --digitalocean-image [DO_IMAGE] --digitalocean-region [DO_REGION] --digitalocean-size [DO_SIZE] [DOCKER_MACHINE_NAME]`
+`docker-machine create --driver digitalocean --digitalocean-access-token=[DO_ACCESS_TOKEN] --digitalocean-image=[DO_IMAGE] --digitalocean-region=[DO_REGION] --digitalocean-size=[DO_SIZE] [DOCKER_MACHINE_NAME]`
 
 * Virtual Box
 `docker-machine create --driver virtualbox [DOCKER_MACHINE_NAME]`
